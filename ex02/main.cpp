@@ -16,7 +16,7 @@
 
 int	main()
 {
-	// Animal	a;
+//	 Animal	a;
 	// Dog		dog;
 	// Cat		cat;
 
@@ -38,7 +38,6 @@ int	main()
 	i->getBrain()->setIdea("КОЖАННЫЕ МЕШКИ опять не покормили");
 	cout << "\nDog's brain: " << j->getBrain()->getIdea(1) << endl;
 	cout << "\nCat's brain: " << i->getBrain()->getIdea(0) << endl;
-
 	i = j;
 	cout << "\nDog's brain: " << i->getBrain()->getIdea(1) << endl;
 	delete j;

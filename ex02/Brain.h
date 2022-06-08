@@ -1,37 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Animal.hpp                                         :+:      :+:    :+:   */
+/*   Brain.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hloki <hloki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/06/05 20:55:05 by hloki             #+#    #+#             */
-/*   Updated: 2022/06/08 01:13:40 by hloki            ###   ########.fr       */
+/*   Created: 2022/06/07 18:13:58 by hloki             #+#    #+#             */
+/*   Updated: 2022/06/07 18:57:03 by hloki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef ANIMAL_HPP
-# define ANIMAL_HPP
+#ifndef BRAIN_H
+# define BRAIN_H
 #include <iostream>
-#include "../../tmp/ex01/Brain.h"
-#include "../../tmp/ex01/Colors.hpp"
+#include "Colors.hpp"
 
 using std::string;
 using std::cout;
 using std::endl;
-
-class Animal
+class Brain
 {
 	public:
-		Animal();
-		Animal(const Animal &obj);
-		virtual ~Animal();
-		virtual Animal	&operator=(Animal const &obj);
-		virtual void	makeSound() const;
-		string			getType() const;
-		virtual Brain	*getBrain() const = 0;
-	protected:
-		string	type;
+		Brain();
+		Brain(const Brain &obj);
+		virtual ~Brain();
+		string	getIdea(int index);
+		void	setIdea(const string idea);
+	private:
+		string	ideas[100];
 };
 
 #endif

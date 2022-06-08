@@ -60,6 +60,7 @@
 				2,
 				3,
 				4,
+				5,
 				6
 			]
 		}
@@ -102,15 +103,8 @@
 				2,
 				3,
 				4,
-				6
-			]
-		},
-		{
-			"name" : "Header Files",
-			"sourceIndexes" : 
-			[
 				5,
-				7
+				6
 			]
 		}
 	],
@@ -119,48 +113,44 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "ex00/main.cpp",
+			"path" : "ex02/main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "ex00/Animal.cpp",
+			"path" : "ex02/Animal.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "ex00/Cat.cpp",
+			"path" : "ex02/Cat.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "ex00/Dog.cpp",
+			"path" : "ex02/Dog.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "ex00/WrongAnimal.cpp",
+			"path" : "ex02/WrongAnimal.cpp",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "ex00/WrongAnimal.h",
-			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "ex00/WrongCat.cpp",
+			"path" : "ex02/WrongCat.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "ex00/WrongCat.h",
-			"sourceGroupIndex" : 1
+			"compileGroupIndex" : 0,
+			"path" : "ex02/Brain.cpp",
+			"sourceGroupIndex" : 0
 		}
 	],
 	"type" : "EXECUTABLE"

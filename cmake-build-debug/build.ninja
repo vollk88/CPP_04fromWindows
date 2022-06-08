@@ -49,41 +49,47 @@ cmake_ninja_workdir = C$:/Users/PrimeGames/Desktop/CPP_04/cmake-build-debug/
 
 build cmake_object_order_depends_target_CPP_04: phony || CMakeFiles/CPP_04.dir
 
-build CMakeFiles/CPP_04.dir/ex00/main.cpp.obj: CXX_COMPILER__CPP_04_Debug C$:/Users/PrimeGames/Desktop/CPP_04/ex00/main.cpp || cmake_object_order_depends_target_CPP_04
-  DEP_FILE = CMakeFiles\CPP_04.dir\ex00\main.cpp.obj.d
+build CMakeFiles/CPP_04.dir/ex02/main.cpp.obj: CXX_COMPILER__CPP_04_Debug C$:/Users/PrimeGames/Desktop/CPP_04/ex02/main.cpp || cmake_object_order_depends_target_CPP_04
+  DEP_FILE = CMakeFiles\CPP_04.dir\ex02\main.cpp.obj.d
   FLAGS = -g -std=gnu++98
   OBJECT_DIR = CMakeFiles\CPP_04.dir
-  OBJECT_FILE_DIR = CMakeFiles\CPP_04.dir\ex00
+  OBJECT_FILE_DIR = CMakeFiles\CPP_04.dir\ex02
 
-build CMakeFiles/CPP_04.dir/ex00/Animal.cpp.obj: CXX_COMPILER__CPP_04_Debug C$:/Users/PrimeGames/Desktop/CPP_04/ex00/Animal.cpp || cmake_object_order_depends_target_CPP_04
-  DEP_FILE = CMakeFiles\CPP_04.dir\ex00\Animal.cpp.obj.d
+build CMakeFiles/CPP_04.dir/ex02/Animal.cpp.obj: CXX_COMPILER__CPP_04_Debug C$:/Users/PrimeGames/Desktop/CPP_04/ex02/Animal.cpp || cmake_object_order_depends_target_CPP_04
+  DEP_FILE = CMakeFiles\CPP_04.dir\ex02\Animal.cpp.obj.d
   FLAGS = -g -std=gnu++98
   OBJECT_DIR = CMakeFiles\CPP_04.dir
-  OBJECT_FILE_DIR = CMakeFiles\CPP_04.dir\ex00
+  OBJECT_FILE_DIR = CMakeFiles\CPP_04.dir\ex02
 
-build CMakeFiles/CPP_04.dir/ex00/Cat.cpp.obj: CXX_COMPILER__CPP_04_Debug C$:/Users/PrimeGames/Desktop/CPP_04/ex00/Cat.cpp || cmake_object_order_depends_target_CPP_04
-  DEP_FILE = CMakeFiles\CPP_04.dir\ex00\Cat.cpp.obj.d
+build CMakeFiles/CPP_04.dir/ex02/Cat.cpp.obj: CXX_COMPILER__CPP_04_Debug C$:/Users/PrimeGames/Desktop/CPP_04/ex02/Cat.cpp || cmake_object_order_depends_target_CPP_04
+  DEP_FILE = CMakeFiles\CPP_04.dir\ex02\Cat.cpp.obj.d
   FLAGS = -g -std=gnu++98
   OBJECT_DIR = CMakeFiles\CPP_04.dir
-  OBJECT_FILE_DIR = CMakeFiles\CPP_04.dir\ex00
+  OBJECT_FILE_DIR = CMakeFiles\CPP_04.dir\ex02
 
-build CMakeFiles/CPP_04.dir/ex00/Dog.cpp.obj: CXX_COMPILER__CPP_04_Debug C$:/Users/PrimeGames/Desktop/CPP_04/ex00/Dog.cpp || cmake_object_order_depends_target_CPP_04
-  DEP_FILE = CMakeFiles\CPP_04.dir\ex00\Dog.cpp.obj.d
+build CMakeFiles/CPP_04.dir/ex02/Dog.cpp.obj: CXX_COMPILER__CPP_04_Debug C$:/Users/PrimeGames/Desktop/CPP_04/ex02/Dog.cpp || cmake_object_order_depends_target_CPP_04
+  DEP_FILE = CMakeFiles\CPP_04.dir\ex02\Dog.cpp.obj.d
   FLAGS = -g -std=gnu++98
   OBJECT_DIR = CMakeFiles\CPP_04.dir
-  OBJECT_FILE_DIR = CMakeFiles\CPP_04.dir\ex00
+  OBJECT_FILE_DIR = CMakeFiles\CPP_04.dir\ex02
 
-build CMakeFiles/CPP_04.dir/ex00/WrongAnimal.cpp.obj: CXX_COMPILER__CPP_04_Debug C$:/Users/PrimeGames/Desktop/CPP_04/ex00/WrongAnimal.cpp || cmake_object_order_depends_target_CPP_04
-  DEP_FILE = CMakeFiles\CPP_04.dir\ex00\WrongAnimal.cpp.obj.d
+build CMakeFiles/CPP_04.dir/ex02/WrongAnimal.cpp.obj: CXX_COMPILER__CPP_04_Debug C$:/Users/PrimeGames/Desktop/CPP_04/ex02/WrongAnimal.cpp || cmake_object_order_depends_target_CPP_04
+  DEP_FILE = CMakeFiles\CPP_04.dir\ex02\WrongAnimal.cpp.obj.d
   FLAGS = -g -std=gnu++98
   OBJECT_DIR = CMakeFiles\CPP_04.dir
-  OBJECT_FILE_DIR = CMakeFiles\CPP_04.dir\ex00
+  OBJECT_FILE_DIR = CMakeFiles\CPP_04.dir\ex02
 
-build CMakeFiles/CPP_04.dir/ex00/WrongCat.cpp.obj: CXX_COMPILER__CPP_04_Debug C$:/Users/PrimeGames/Desktop/CPP_04/ex00/WrongCat.cpp || cmake_object_order_depends_target_CPP_04
-  DEP_FILE = CMakeFiles\CPP_04.dir\ex00\WrongCat.cpp.obj.d
+build CMakeFiles/CPP_04.dir/ex02/WrongCat.cpp.obj: CXX_COMPILER__CPP_04_Debug C$:/Users/PrimeGames/Desktop/CPP_04/ex02/WrongCat.cpp || cmake_object_order_depends_target_CPP_04
+  DEP_FILE = CMakeFiles\CPP_04.dir\ex02\WrongCat.cpp.obj.d
   FLAGS = -g -std=gnu++98
   OBJECT_DIR = CMakeFiles\CPP_04.dir
-  OBJECT_FILE_DIR = CMakeFiles\CPP_04.dir\ex00
+  OBJECT_FILE_DIR = CMakeFiles\CPP_04.dir\ex02
+
+build CMakeFiles/CPP_04.dir/ex02/Brain.cpp.obj: CXX_COMPILER__CPP_04_Debug C$:/Users/PrimeGames/Desktop/CPP_04/ex02/Brain.cpp || cmake_object_order_depends_target_CPP_04
+  DEP_FILE = CMakeFiles\CPP_04.dir\ex02\Brain.cpp.obj.d
+  FLAGS = -g -std=gnu++98
+  OBJECT_DIR = CMakeFiles\CPP_04.dir
+  OBJECT_FILE_DIR = CMakeFiles\CPP_04.dir\ex02
 
 
 # =============================================================================
@@ -93,7 +99,7 @@ build CMakeFiles/CPP_04.dir/ex00/WrongCat.cpp.obj: CXX_COMPILER__CPP_04_Debug C$
 #############################################
 # Link the executable CPP_04.exe
 
-build CPP_04.exe: CXX_EXECUTABLE_LINKER__CPP_04_Debug CMakeFiles/CPP_04.dir/ex00/main.cpp.obj CMakeFiles/CPP_04.dir/ex00/Animal.cpp.obj CMakeFiles/CPP_04.dir/ex00/Cat.cpp.obj CMakeFiles/CPP_04.dir/ex00/Dog.cpp.obj CMakeFiles/CPP_04.dir/ex00/WrongAnimal.cpp.obj CMakeFiles/CPP_04.dir/ex00/WrongCat.cpp.obj
+build CPP_04.exe: CXX_EXECUTABLE_LINKER__CPP_04_Debug CMakeFiles/CPP_04.dir/ex02/main.cpp.obj CMakeFiles/CPP_04.dir/ex02/Animal.cpp.obj CMakeFiles/CPP_04.dir/ex02/Cat.cpp.obj CMakeFiles/CPP_04.dir/ex02/Dog.cpp.obj CMakeFiles/CPP_04.dir/ex02/WrongAnimal.cpp.obj CMakeFiles/CPP_04.dir/ex02/WrongCat.cpp.obj CMakeFiles/CPP_04.dir/ex02/Brain.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CPP_04.dir

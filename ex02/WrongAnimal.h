@@ -1,37 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Animal.hpp                                         :+:      :+:    :+:   */
+/*   WrongAnimal.h                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hloki <hloki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/06/05 20:55:05 by hloki             #+#    #+#             */
-/*   Updated: 2022/06/08 01:13:40 by hloki            ###   ########.fr       */
+/*   Created: 2022/06/07 18:28:49 by hloki             #+#    #+#             */
+/*   Updated: 2022/06/07 18:28:52 by hloki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef ANIMAL_HPP
-# define ANIMAL_HPP
+#ifndef WRONGANIMAL_H
+#define WRONGANIMAL_H
+#include "Colors.hpp"
 #include <iostream>
-#include "../../tmp/ex01/Brain.h"
-#include "../../tmp/ex01/Colors.hpp"
-
 using std::string;
 using std::cout;
 using std::endl;
 
-class Animal
+class WrongAnimal
 {
-	public:
-		Animal();
-		Animal(const Animal &obj);
-		virtual ~Animal();
-		virtual Animal	&operator=(Animal const &obj);
-		virtual void	makeSound() const;
-		string			getType() const;
-		virtual Brain	*getBrain() const = 0;
-	protected:
-		string	type;
+public:
+	WrongAnimal();
+	WrongAnimal(const WrongAnimal &obj);
+	~WrongAnimal();
+	WrongAnimal			operator=(WrongAnimal const &obj);
+	void			makeSound() const;
+	string			getType() const;
+protected:
+	string	type;
 };
+
 
 #endif

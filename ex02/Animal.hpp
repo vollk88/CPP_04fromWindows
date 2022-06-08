@@ -28,7 +28,7 @@ class Animal
 		virtual ~Animal();
 		virtual Animal	&operator=(Animal const &obj);
 		virtual void	makeSound() const;
-		string			getType() const;
+		virtual string			getType() const;
 		virtual Brain	*getBrain() const = 0;
 	protected:
 		string	type;
